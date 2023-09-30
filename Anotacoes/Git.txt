@@ -1,0 +1,17 @@
+git clone "link-repositorio"          >># Esse comando serve para clonar o repositorio do github
+
+
+
+SUBINDO PARA O GITHUB AS ALTERAÇÕES
+
+1º Abra o terminal, de preferencia o Powershell
+2º Va até a pasta do seu projeto
+#(Lembrar sempre de estar na pasta raiz do projeto antes de começar a fazer esses comandos)#
+3º Use o comando "cd" para adentrar as pasta, ao começar a digitar se apertar TAB ele auto completa, e para ver as pasta use "ls"
+cd .\Projetos\Linux-Debian-Essentials-\
+4º Use o comando "git add ." para adicionar todas as alterações, esse "." é uma referencia ao diretorio atual
+git add .
+5º Use o comando "git commit -m "Linux Essentials Day1"", esse comando está acrescentando um "titulo" a todas as alterações que você fez no dia
+git commit -m "Linux Essentials Day1"
+6º Agora só utilizar o ultimo comando para subir tudo para o github, git está fazendo um "push" para o repositorio "Main"
+git push origin main
