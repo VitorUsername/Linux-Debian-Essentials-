@@ -16,10 +16,8 @@ Este repositório contém materiais e anotações do curso **Linux Admin**, abra
 ## 📸 Imagens
 
 ### Exemplo de Comando Linux no Terminal
-![Terminal Linux](https://upload.wikimedia.org/wikipedia/commons/3/3a/Bash_Logo_Colored.svg)
+![Terminal Linux](https://miro.medium.com/v2/resize:fit:1400/1*zGZSsGmCMrAF3PEkrvUgKg.gif)
 
-### Estrutura de Diretórios Linux
-![Estrutura de Diretórios](https://upload.wikimedia.org/wikipedia/commons/6/6f/Linux_kernel_map.png)
 
 ## 📂 Estrutura do Repositório
 
