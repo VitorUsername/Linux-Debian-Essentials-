@@ -1,21 +1,49 @@
-# Linux Admin - LinuxTips
+# 📜 Curso Linux Admin
 
-![Linux Admin](https://www.lpi.org/wp-content/uploads/2023/04/LPIC-1_0.jpg)
+Este repositório contém materiais e anotações do curso **Linux Admin**, abrangendo desde conceitos básicos até administração avançada do sistema operacional Linux.
 
-## Sobre o Curso
-O **Linux Admin** é um curso voltado para a administração de sistemas Linux, cobrindo desde conceitos básicos até configurações avançadas de servidores e redes. O objetivo é capacitar o aluno a gerenciar um ambiente Linux com eficiência, segurança e otimização.
+## 📖 Conteúdo do Curso
 
-## Recursos Úteis
-- 📜 [Documentação Oficial do Linux](https://www.kernel.org/doc/html/latest/)
-- 🎓 [Linux Professional Institute (LPI)](https://www.lpi.org/)
-- 🎓 [Linux Tips Cursos](https://school.linuxtips.io/)
-- 📘 [Manual de Comandos Linux](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/)
+- Introdução ao Linux e distribuições
+- Comandos essenciais do terminal
+- Gerenciamento de usuários e permissões
+- Sistema de arquivos e manipulação de diretórios
+- Processos e gerenciamento de tarefas
+- Shell scripting básico e avançado
+- Redes e configuração de servidores
+- Segurança e firewall
 
-## Licença
-Este material está disponível sob a licença **MIT**. Você pode usá-lo e distribuí-lo livremente, desde que mantenha os créditos originais.
+## 📸 Imagens
 
----
-**Mantenedor:** [VitorUsername](https://github.com/VitorUsername)
+### Exemplo de Comando Linux no Terminal
+![Terminal Linux](https://upload.wikimedia.org/wikipedia/commons/3/3a/Bash_Logo_Colored.svg)
 
-![Linux Terminal](https://media.geeksforgeeks.org/wp-content/uploads/20210825224545/1.gif)
+### Estrutura de Diretórios Linux
+![Estrutura de Diretórios](https://upload.wikimedia.org/wikipedia/commons/6/6f/Linux_kernel_map.png)
+
+## 📂 Estrutura do Repositório
+
+```bash
+/
+├── README.md  # Introdução ao curso
+├── Aulas/     # Diretório com anotações das aulas
+│   ├── Dia_1.md
+│   ├── Dia_2.md
+│   └── ...
+├── Scripts/   # Exemplos de Shell Scripts
+└── Recursos/  # Materiais complementares
+```
+
+## 📝 Notas de Rodapé
+
+Isto é um exemplo de nota de rodapé.[^1]
+
+[^1]: Esta é a nota de rodapé com mais informações.
+
+## 🔗 Links
+- [Documentação Oficial do Linux](https://www.kernel.org/doc/html/latest/)
+- [Guia Bash Scripting](https://www.gnu.org/software/bash/manual/bash.html)
+- [Linux Handbook](https://linuxhandbook.com/)
+- [Linux Tips Cursos](https://school.linuxtips.io/)
+
 
