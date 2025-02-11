@@ -34,9 +34,6 @@ Este repositório contém materiais e anotações do curso **Linux Admin**, abra
 
 ## 📝 Notas de Rodapé
 
-Isto é um exemplo de nota de rodapé.[^1]
-
-[^1]: Esta é a nota de rodapé com mais informações.
 
 ## 🔗 Links
 - [Documentação Oficial do Linux](https://www.kernel.org/doc/html/latest/)
