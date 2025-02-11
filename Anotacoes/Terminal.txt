@@ -18,6 +18,11 @@ ARQUIVOS (.PROFILE) SÃO ARQUIVOS OCULTOS
 history = traz todo o histórico de comandos que eu digitei
 (seta para cima) ou (para baixo) EU CONSIGO ACESSAR OS HISTÓRICO DE COMANDOS TAMBÉM
 
+
+================
+TROCAR SHELL -->
+================
+
 DEBIAN USA O SHELL BASH, MAS EU POSSO ESCOLHER OUTROS SHELL TAMBÉM POSSO ENTRAR NO 
 cat /etc/shells = depois só escrever qual eu quero usar
 
