@@ -62,7 +62,3 @@
 - O Debian usa o shell `bash` por padrão.
 - Para listar os shells disponíveis: `cat /etc/shells`.
 - Para mudar de shell, basta digitar o nome do shell desejado.
-
----
-Essas foram as anotações do Dia 2 do curso de Linux Admin. Caso precise de mais informações ou queira complementar algo, sinta-se à vontade para editar!
-
