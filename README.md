@@ -13,7 +13,6 @@ Este repositório contém materiais e anotações do curso **Linux Admin**, abra
 - Redes e configuração de servidores
 - Segurança e firewall
 
-## 📸 Imagens
 
 ### Exemplo de Comando Linux no Terminal
 ![Terminal Linux](https://miro.medium.com/v2/resize:fit:1400/1*zGZSsGmCMrAF3PEkrvUgKg.gif)
