@@ -1,6 +1,7 @@
 ## ÍNDICE DAS AULAS
 - [DAY 02](#day-02)
 - [DAY 03](#day-03)
+- [DAY 04](#day-04)
 
 <a id="day-02"></a>
 
@@ -69,6 +70,7 @@
 - Para listar os shells disponíveis: `cat /etc/shells`.
 - Para mudar de shell, basta digitar o nome do shell desejado.
 
+---
 <a id="day-03"></a>
 
 # Comandos Aprendidos Day-03
@@ -230,4 +232,196 @@ A saída será algo assim:
 - `nano` → Editor de texto simples no terminal.
 - `vim` → Editor de texto avançado no terminal.
 - `mcdit` → Editor de texto no terminal.
+
+---
+<a id="day-04"></a>
+# Lista de Comandos Aprendidos - Aula Dia 04
+
+## Curingas e Caracteres Especiais
+- `*` → Representa nenhum, um ou mais caracteres.
+- `?` → Representa um único caractere.
+- `[]` → Define uma referência de caracteres.
+- `{}` → Especifica padrões de strings.
+
+## Comandos Diversos
+- `clear` / `CTRL+L` → Limpar a tela.
+- `#` → Comentário.
+
+## Comando `date`
+- `date`
+- `date -s "08:30"`
+- `hwclock --systohc`
+- `date +%d-%m-%Y`
+- `date +%T`
+
+## Comando `df`
+- `df`
+- `df -h`
+- `df -H`
+- `df -l`
+- `df -m`
+- `df -a`
+- `df -i`
+- `df -T`
+- `df -t`
+
+## Comando `ln`
+- `ln /bin/ls ls1`
+- `ln -s /usr/bin link-do-ls`
+- `cp -rvl /usr /tmp/usr-link`
+
+## Comando `du`
+- `du -H`
+- `du -h`
+- `du -s`
+- `du -k`
+- `du -m`
+- `du --inodes -s`
+
+## Comando `find`
+- `find /caminho -name "arquivo.txt"`
+- `find /caminho -iname "arquivo.txt"`
+- `find /caminho -type f`
+- `find /caminho -type d`
+- `find /caminho -size +10M`
+- `find /caminho -user nome_usuario`
+- `find /caminho -group nome_grupo`
+- `find /caminho -perm 755`
+- `find /caminho -mtime -7`
+- `find /caminho -atime +30`
+- `find /caminho -ctime -1`
+- `find /caminho -name "*.bak" -delete`
+- `find /caminho -maxdepth 2 -name "*.txt"`
+- `find /caminho -mindepth 2 -name "*.txt"`
+
+## Comando `free`
+- `free -h`
+- `free -b, -k, -m, -g`
+- `free -s 5`
+- `free -t`
+- `free -c 3`
+
+## Comando `grep`
+- `grep -i "padrão" arquivo.txt`
+- `grep -v "padrão" arquivo.txt`
+- `grep -r "padrão" /caminho`
+- `grep -l "padrão" *.txt`
+- `grep -n "padrão" arquivo.txt`
+- `grep -c "padrão" arquivo.txt`
+- `grep -A 3 "padrão" arquivo.txt`
+- `grep -B 3 "padrão" arquivo.txt`
+- `grep -C 3 "padrão" arquivo.txt`
+
+## Comando `head`
+- `head -n 5 arquivo.txt`
+- `head -c 20 arquivo.txt`
+- `head -q arquivo1.txt arquivo2.txt`
+- `head -v arquivo1.txt arquivo2.txt`
+
+## Comando `nl`
+- `nl arquivo.txt`
+- `nl -b a arquivo.txt`
+- `nl -b t arquivo.txt`
+- `nl -n ln arquivo.txt`
+- `nl -n rn arquivo.txt`
+- `nl -n rz arquivo.txt`
+- `nl -s ':' arquivo.txt`
+- `nl -w 4 arquivo.txt`
+
+## Comando `more`
+- `more arquivo.txt`
+- `more +5 arquivo.txt`
+- `more -d arquivo.txt`
+- `more -c arquivo.txt`
+- `more -s arquivo.txt`
+
+## Comando `less`
+- `less arquivo.txt`
+- `less +5 arquivo.txt`
+- `less -N arquivo.txt`
+- `less -S arquivo.txt`
+- `less -X arquivo.txt`
+- `less -i arquivo.txt`
+
+## Comando `sort`
+- `sort arquivo.txt`
+- `sort -r arquivo.txt`
+- `sort -n arquivo.txt`
+- `sort -k 2 arquivo.txt`
+- `sort -t: -k 3,3 arquivo.txt`
+- `sort -u arquivo.txt`
+- `sort -o output.txt arquivo.txt`
+
+## Comando `tail`
+- `tail arquivo.txt`
+- `tail -n 20 arquivo.txt`
+- `tail -c 50 arquivo.txt`
+- `tail -f arquivo.txt`
+- `tail -q arquivo1.txt arquivo2.txt`
+- `tail -v arquivo1.txt arquivo2.txt`
+
+## Comando `uptime`
+- `uptime`
+
+## Comando `dmesg`
+- `dmesg`
+- `dmesg | less`
+- `dmesg -T`
+- `dmesg -k`
+- `dmesg -l`
+- `dmesg -D`
+
+## Comando `echo`
+- `echo "Olá, Mundo!"`
+- `echo $USER`
+- `echo $HOME`
+- `echo -n "Sem nova linha"`
+- `echo -e "Linha1\nLinha2"`
+
+## Comando `su` e `sudo`
+- `su -`
+- `/bin/su -`
+- `adduser nome-do-user sudo`
+- `deluser nome sudo`
+
+## Comando `sync`
+- `sync`
+
+## Comando `uname`
+- `uname -s`
+- `uname -n`
+- `uname -r`
+- `uname -v`
+- `uname -m`
+- `uname -p`
+- `uname -o`
+- `uname -a`
+
+## Comando `reboot`
+- `systemctl reboot`
+- `reboot`
+- `reboot -f`
+- `reboot -p`
+- `reboot --help`
+- `echo b >/proc/sysrq-trigger`
+- `systemctl halt`
+- `shutdown -h now`
+- `shutdown -h [HORÁRIO]`
+- `shutdown -h +10`
+- `shutdown -c`
+
+## Comando `wc`
+- `wc arquivo.txt`
+- `wc -l arquivo.txt`
+- `wc -w arquivo.txt`
+- `wc -c arquivo.txt`
+- `wc -m arquivo.txt`
+- `wc -L arquivo.txt`
+
+## Comando `seq`
+- `seq 10`
+- `seq 1 2 10`
+- `seq -w 01 1 10`
+- `seq -s ", " 1 5`
+- `seq -f "Número: %g" 1 3`
 
